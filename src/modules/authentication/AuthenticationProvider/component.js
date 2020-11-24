@@ -9,10 +9,11 @@ const onRedirectCallback = appState => {
 
 export const Component = ({ children }) => (
   <Auth0Provider
+    audience={process.env.ACUITY_SERVER_AUDIENCE}
     clientId={process.env.AUTH_0_CLIENT_ID}
     domain={process.env.AUTH_0_DOMAIN}
     onRedirectCallback={onRedirectCallback}
-    redirectUri={console.log(window.location.origin) || window.location.origin}
+    redirectUri={window.location.origin}
   >
     {children}
   </Auth0Provider>

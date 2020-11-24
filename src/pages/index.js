@@ -1,12 +1,9 @@
 import React from 'react';
-import { useAuth0, withAuthenticationRequired } from '@auth0/auth0-react';
+import { withAuthenticationRequired } from '@auth0/auth0-react';
 
-const Component = () => {
-  const { user } = useAuth0();
+import { PostMatching } from '../modules';
 
-  console.log(user);
-  return <div>Hello world!</div>;
-};
+const Component = () => <PostMatching />;
 
 Component.displayName = 'Home';
 

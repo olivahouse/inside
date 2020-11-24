@@ -1,0 +1,18 @@
+.container {
+  height: 100%;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.emailBox {
+  background: #f7f7f5;
+  border-radius: 2px;
+  height: 300px;
+  overflow-y: scroll;
+  width: 600px;
+}
