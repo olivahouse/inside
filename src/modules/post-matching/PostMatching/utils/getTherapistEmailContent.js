@@ -1,4 +1,5 @@
 import moment from 'moment-timezone';
+import 'moment/locale/es';
 
 import { EN } from '../../../constants';
 

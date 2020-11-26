@@ -177,7 +177,7 @@ export const Component = () => {
         ({ appointmentTypeID }) =>
           appointmentTypeID ===
           Number(
-            APPOINTMENT_TYPE_IDS[OWNER_IDS[languageCode]].INDIVIDUAL_MATCHING
+            APPOINTMENT_TYPE_IDS[OWNER_IDS[languageCode]].INDIVIDUAL_THERAPY
           )
       );
 
